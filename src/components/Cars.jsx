@@ -1,4 +1,8 @@
-const Cars = () => {
-	return <div>Cars</div>;
+import { useState } from "react";
+
+const Cars = ({carBrands}) => {
+    return (
+
+    )
 };
 export default Cars;
