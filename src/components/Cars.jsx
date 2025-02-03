@@ -19,6 +19,11 @@ const Cars = ({ carBrands }) => {
 				onChange={(e) => setSearchCarBrand(e.target.value)}
 			/>
 			<br />
+			<ul>
+				{filterCarBrands.map((carBrand, index) => {
+					<li key={index}>{carBrand}</li>;
+				})}
+			</ul>
 		</div>
 	);
 };
