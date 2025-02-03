@@ -21,7 +21,7 @@ const Cars = ({ carBrands }) => {
 			<br />
 			<ul>
 				{filterCarBrands.map((carBrand, index) => {
-					<li key={index}>{carBrand}</li>;
+					return <li key={index}>{carBrand}</li>;
 				})}
 			</ul>
 		</div>
