@@ -3,9 +3,9 @@ import { useState } from "react";
 const Cars = ({ carBrands }) => {
 	const [searchCarBrand, setSearchCarBrand] = useState("");
 
-	const filterCarBrands = carBrands.filter((carBrand) => {
-		carBrand.toLowerCase().include(searchCarBrand.toLowerCase());
-	});
+	const filterCarBrands = carBrands.filter((carBrand) =>
+		carBrand.toLowerCase().includes(searchCarBrand.toLowerCase())
+	);
 
 	return (
 		<div>
