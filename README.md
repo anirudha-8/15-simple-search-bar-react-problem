@@ -2,7 +2,7 @@
 
 ## ==> [Link to all problem set](https://github.com/anirudha-8/react.js-practical-problems.git)
 
-## ==> [🔥Live Demo](https://15-search-bar-filter.vercel.app/)
+## ==> [🔥Live Demo](https://15-simple-search-bar-react-problem.vercel.app/)
 
 Welcome to the **fifteenth problem** of the React 30+ Practical Problems series! In this challenge, we will build a search bar that dynamically filters a list of items based on user input.
 
